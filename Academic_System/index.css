@@ -1,0 +1,135 @@
+@keyframes bounce {
+	0%, 20%, 60%, 100%{
+		-webkit-tranform: translateY(0);
+		transform: translateY(0);
+	}
+	40%{
+		-webkit-tranform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	80%{
+		-webkit-tranform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+/*TAGs*/
+p{
+	color: #FF7F50;
+	font-size: 40px;
+	font-family: "Helvetica, arial";
+}
+element.style{
+	text-align: center;
+
+}
+h1, .h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+		text-align: center;
+		color: #2c3e50;
+		font-family: 'Mukta', sans-serif;
+}
+h5{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Mukta', sans-serif;
+}
+h4{
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 1.2;
+	text-align: center;
+	color: #2c3e50;
+	font-family: 'Mukta', sans-serif;
+}
+img{
+	position: center;
+}
+.content{
+	background-color: #ecf0f1;
+	height: 420px;
+	width: auto;
+	margin-top: -20px;
+}
+*{
+	margin: 0;
+  padding: 0;
+	font-family: Helvetica, arial;
+}
+header{
+	background-image: linear-gradient(45deg, #2980B9, #6DD5FA, #2C5364);
+	height: 95px;
+	padding: 5px;
+}
+footer{
+	background-image: linear-gradient(45deg, #2980B9, #6DD5FA, #2C5364) !important;
+}
+.foto{
+	position: absolute;
+	opacity: 0;
+	animation-name: animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+#logo{
+	float: left;
+}
+.slider{
+	height: auto !important;
+	width: auto !important;
+}
+.slides{
+	height: 600px !important;
+}
+/*CLASS*/
+.cotainer{
+	width: 960px;
+	margin: auto;
+}
+.bnts{
+	text-align: center;
+	margin-top: 20px;
+	float: right;
+}
+.efeito{
+	border: none;
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	font-size: 13px;
+	line-height: 10px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+.efeito1{
+	background-image: linear-gradient(45deg, #000000, #434343);
+	color: white;
+}
+.efeito1:hover{
+	animation: bounce 1s;
+}
+.efeito2{
+	background-image: linear-gradient(45deg, #000000, #434343);
+	color: white;
+}
+.efeito2:hover{
+	animation: bounce 1s;
+}
+.efeito3{
+	background-image: linear-gradient(45deg, #000000, #434343);
+}
+.efeito3:hover{
+	background: rgba(0, 0, 0, 0);
+	color: black;
+	box-shadow: inset 0 0 0 2px black;
+}

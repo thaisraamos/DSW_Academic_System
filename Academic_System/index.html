@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+
+
+
+<!-- AQUI SE ENCONTRA O INDEX, A PRIMEIRA TELA DO NOSSO SITE, AQUI VC PODE VERIFICAR AS INFORMAÇÕES DOS DESENVOLVEDORES ASSIM COMO
+	SE DIRECIONAR A OUTRAS PÁGINAS
+-->
+
+
+
+
+<html lang="pt-br">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	  <title>Home</title>
+	  
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" href="materialize.css">
+	</head>
+
+<body>
+
+  <!--Top & Menu-->
+<header>
+	<div id="logo">
+		<a href="index.html"><img src="imagens/Logo.jpeg"></a>
+	</div>
+	<div class="bnts">
+
+		<a href="Cad_Disciplina.php"><button type="button" class="efeito efeito1"><b>Cadastrar Disciplina</b></button></a>
+		<a href="Cad_Estudante.php"><button type="button" class="efeito efeito2"><b>Cadastrar Aluno</b></button></a>
+		<a href="Cad_notas.php"><button type="button" class="efeito efeito2"><b>Cadastrar Notas<b></button></a>
+		<a href="Altera_Nota.php"><button type="button" class="efeito efeito2"><b>Alterar Notas<b></button></a>  
+		<a href="Tabela_Est.php"><button type="button" class="efeito efeito2"><b>Relação de Alunos<b></button></a>  
+		  
+	</div>
+</header>
+
+  <!--Fecha Top & Menu-->
+  <!--Slider-->
+  <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="imagens/escola.jpg">
+          <div class="caption black-text center-align">
+            <h3>BEM VINDO AO ACADEMIC SYSTEM</h3>
+          </div>
+        </li>
+        <li>
+          <img src="imagens/escola1.jpg">
+          <div class="caption left-align">
+            <h3></h3>
+            <h5 class="light grey-text text-lighten-3"></h5>
+          </div>
+        </li>
+        
+        
+      </ul>
+    </div>
+  <!--Fim Slider-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('.slider').slider();
+  });
+</script>
+
+<div id="sobre">
+
+<div class="content">
+<center>
+  <img src="imagens/Logo.jpeg" style="padding: 40px 0 56px 0; margin: 0 auto; width: 340px; height: 190px">
+</center>
+  <h5>Tudo o que você precisa para iniciar o gerenciamento de seu sistema academico!</h5>
+</div>
+
+
+<!--Rodapé-->
+<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="black-text"><b>Desenvolvido Por:</b></h5>
+                <a class="black-text text-lighten-3">Cândida Rosa Paraizo</p>
+                <a class="black-text text-lighten-3">Fábio Jorge Reginaldo</p>
+				<a class="black-text text-lighten-3">Gustavo Ferreira Ramos</p>
+                <a class="black-text text-lighten-3">Thais Ramos de Almeida</p>
+                <a class="black-text text-lighten-3">Vagner Pereira Junior</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="black-text"><b>Contatos:</b></h5>
+                <ul>
+                  <li><a class="black-text text-lighten-3" href="#!"><b>candidaparaizo@gmail.com</b></a></li>
+                  <li><a class="black-text text-lighten-3" href="#!"><b>fabiojorgereginaldo@gmail.com</b></a></li>
+				  <li><a class="black-text text-lighten-3" href="#!"><b>gustavo515@live.com</b></a></li>
+                  <li><a class="black-text text-lighten-3" href="#!"><b>thaisramosa_contato@outlook.com</b></a></li>
+                  <li><a class="black-text text-lighten-3" href="#!"><b>vagnerjunior170@gmail.com</b></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            <b>© 2020 Academic System</b>
+            <a class="white-text text-lighten-4 right" href="#!"><b>Feito com ❤</b></a>
+            </div>
+          </div>
+        </footer>
+<!--Fim Rodapé-->
+</body>
+</html>
